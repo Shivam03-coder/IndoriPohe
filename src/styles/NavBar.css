@@ -1,0 +1,52 @@
+.logoImage {
+    height: 50px;
+}
+
+.logoImage:hover {
+    transform: rotate(30deg);
+}
+
+.NavigationUl {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.NavigationUl li {
+    margin: 0 20px;
+    align-items: center;
+}
+
+.NavigationUl li a {
+    text-decoration: none;
+    color: black;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+/*  Mobile View */
+
+.MobileNavugationMenu {
+    list-style: none;
+}
+
+.MobileNavugationMenu li {
+    margin-top: 60px;
+}
+
+.MobileNavugationMenu li a {
+    margin: 50px;
+    text-decoration: none;
+    color: black;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.logoImage1 {
+    margin: 23px;
+}
+
+.active {
+    color: cyan !important
+}
